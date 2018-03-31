@@ -20,7 +20,7 @@ Then, install all Node.js dependencies:
     cd brick-by-brick
     npm install
 
-brick-by-brick needs a PostgreSQL database to store geotagged images. Make sure PostgreSQL is installed and is running. By default, the API uses the following [connection string](https://github.com/brianc/node-postgres/wiki/pg#parameters), but you can override this by setting the `DATABASE_URL` environment variable:
+brick-by-brick needs a PostgreSQL database to store tasks and submissions. By default, the API uses the following [connection string](https://github.com/brianc/node-postgres/wiki/pg#parameters), but you can override this by setting the `DATABASE_URL` environment variable:
 
     export DATABASE_URL=postgres://postgres:postgres@localhost/brick-by-brick
 
